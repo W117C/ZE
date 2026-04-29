@@ -70,7 +70,7 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "gateway/jarvis"
+        "primary": "my-custom/gpt-5.4"
       },
       "models": {
         "gateway/jarvis": {}
