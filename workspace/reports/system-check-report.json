@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-04-30T05:15:25.702796",
+  "ok_items": 23,
+  "warnings": [],
+  "issues": [
+    "Cron 列表获取失败: Extra data: line 1 column 2 (char 1)"
+  ],
+  "total_checks": 24
+}

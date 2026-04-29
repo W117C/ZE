@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-04-30 05:09:26",
+  "status": "success",
+  "summary": {
+    "logs_scanned": 3,
+    "decisions_found": 10,
+    "lessons_found": 4,
+    "preferences_found": 3,
+    "tasks_found": 3,
+    "facts_found": 10,
+    "total_items_integrated": 30
+  },
+  "logs_details": [
+    {
+      "file": "2026-04-28.md",
+      "lines": 21,
+      "size_kb": 0.4
+    },
+    {
+      "file": "2026-04-29.md",
+      "lines": 65,
+      "size_kb": 1.4
+    },
+    {
+      "file": "2026-04-30.md",
+      "lines": 7,
+      "size_kb": 0.1
+    }
+  ],
+  "integrated_items": {
+    "decisions": [
+      "### OpenClaw 模型切换与模拟炒股系统整理 (01:42 开始)",
+      "- 已将 openclaw.json 的 primary 模型改为 `my-custom/gpt-5.4`",
+      "- 用户已确认“需要”重启 Gateway 使模型切换生效"
+    ],
+    "lessons": [
+      "- 用户的量化思维很强，会指出分析中的逻辑错误",
+      "## 基金分析报告修正（2026-04-29 审计反馈）",
+      "### 原始报告错误"
+    ],
+    "preferences": [
+      "- 风格：商品防御型",
+      "## 用户偏好/事实",
+      "- 用户对基金分析要求专业级标准，不接受简单外推"
+    ],
+    "projects": [],
+    "tasks": [
+      "- 状态：进行中",
+      "- 待办：执行 `openclaw gateway restart` 并确认切换结果",
+      "- 状态：已完成"
+    ],
+    "facts": [
+      "## 用户持仓基金记录",
+      "### 基金持仓（2026-04-28 记录）",
+      "| 基金 | 占比 | 持有收益 | 类型 |"
+    ]
+  }
+}

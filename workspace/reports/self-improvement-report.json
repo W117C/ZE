@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-04-30T05:22:20.812725",
+  "overall_score": 76.51,
+  "grade": "B",
+  "trend": {
+    "status": "insufficient_data",
+    "message": "需要至少 2 次评估才能分析趋势"
+  },
+  "improvement_actions": [
+    {
+      "dimension": "error_control",
+      "current_score": 30.0,
+      "action": "增加错误检测覆盖率，实现自动错误恢复机制，记录每次错误的处理和结果"
+    },
+    {
+      "dimension": "knowledge",
+      "current_score": 0.0,
+      "action": "填充知识库事实，构建知识图谱，记录系统配置、用户偏好、项目状态"
+    },
+    {
+      "dimension": "self_improvement",
+      "current_score": 0.0,
+      "action": "建立评估历史记录，对比前后分数变化，生成改进建议和行动计划"
+    },
+    {
+      "dimension": "pattern_learning",
+      "current_score": 0.0,
+      "action": "实现错误模式识别，从历史错误中提取规律，建立模式库并定期更新"
+    }
+  ],
+  "eval_count": 1
+}

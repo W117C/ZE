@@ -1,0 +1,105 @@
+{
+  "title": "基金持仓市场分析报告",
+  "date": "2026-04-30",
+  "funds": [
+    {
+      "code": "000216",
+      "name": "华安黄金ETF联接A",
+      "weight": 26.8,
+      "type": "黄金/避险",
+      "latest": {
+        "nav": 3.503,
+        "prev_nav": 3.542,
+        "change_pct": -1.1011,
+        "date": "2026-04-29"
+      }
+    },
+    {
+      "code": "000217",
+      "name": "华安黄金ETF联接C",
+      "weight": 0.05,
+      "type": "黄金/避险",
+      "latest": {
+        "nav": 3.4097,
+        "prev_nav": 3.4477,
+        "change_pct": -1.1022,
+        "date": "2026-04-29"
+      }
+    },
+    {
+      "code": "006143",
+      "name": "鹏华石油天然气ETF联接C",
+      "weight": 12.29,
+      "type": "能源/商品",
+      "latest": {
+        "nav": 1.2678,
+        "prev_nav": 1.2687,
+        "change_pct": -0.0709,
+        "date": "2022-12-16"
+      }
+    },
+    {
+      "code": "017312",
+      "name": "天弘中美互联网指数(QDII)A",
+      "weight": 9.99,
+      "type": "科技/QDII",
+      "latest": {
+        "nav": 0.9379,
+        "prev_nav": 0.8315,
+        "change_pct": 12.7962,
+        "date": "2024-09-30"
+      }
+    },
+    {
+      "code": "019559",
+      "name": "路博迈资源精选股票C",
+      "weight": 7.26,
+      "type": "资源/周期",
+      "latest": {
+        "nav": 1.0389,
+        "prev_nav": 1.0336,
+        "change_pct": 0.5128,
+        "date": "2026-04-29"
+      }
+    },
+    {
+      "code": "000198",
+      "name": "余额宝",
+      "weight": 43.61,
+      "type": "现金/货基",
+      "latest": {
+        "error": "Uncaught ReferenceError: Data_netWorthTrend is not defined at undefined:1:27\nReferenceError: Data_netWorthTrend is not defined\n    at <anonymous>:1:28\n    at <anonymous>:1:57"
+      }
+    }
+  ],
+  "market": {
+    "沪深300": {
+      "value": "N/A",
+      "change_pct": "N/A"
+    },
+    "创业板指": {
+      "value": "N/A",
+      "change_pct": "N/A"
+    },
+    "中证500": {
+      "value": "N/A",
+      "change_pct": "N/A"
+    }
+  },
+  "portfolio_summary": {
+    "weighted_return": 1.7932,
+    "cash_ratio": 43.61,
+    "commodity_ratio": 39.14,
+    "equity_ratio": 16.75,
+    "diversification_score": "C (过度集中商品与现金)"
+  },
+  "quant_analysis": {
+    "score": 5.5,
+    "rating": "C",
+    "notes": [
+      "现金比例过高，拖累长期收益",
+      "大宗商品集中度过高，波动风险大"
+    ],
+    "recommendation": "建议降低黄金与现金比例，增加宽基指数（沪深300）和红利资产。"
+  }
+}

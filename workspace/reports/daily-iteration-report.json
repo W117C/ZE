@@ -1,0 +1,25 @@
+{
+  "date": "2026-04-30",
+  "summary": {
+    "total_errors": 3,
+    "resolved": 0,
+    "open": 3,
+    "patterns_found": 0
+  },
+  "patterns": [],
+  "active_rules": [
+    {
+      "name": "避免_analysis_错误",
+      "description": "从错误中提炼: 用1周数据推断QDII结构性弱势"
+    },
+    {
+      "name": "避免_logic_错误",
+      "description": "从错误中提炼: 黄金年化3-5%结论过于绝对"
+    },
+    {
+      "name": "避免_upload_错误",
+      "description": "从错误中提炼: 用户说不要上传但直接上传了"
+    }
+  ],
+  "status": "needs_attention"
+}

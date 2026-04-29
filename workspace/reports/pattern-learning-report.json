@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-04-30T05:22:20.769163",
+  "total_patterns": 3,
+  "patterns": [
+    {
+      "id": 1,
+      "name": "2026-04-30T05:22:20.767896",
+      "category": "在 analysis 类别中重复出现 1 次错误",
+      "frequency": "analysis",
+      "severity": "2026-04-30T01:44:17.597660",
+      "resolved": true
+    },
+    {
+      "id": 2,
+      "name": "2026-04-30T05:22:20.768027",
+      "category": "在 logic 类别中重复出现 1 次错误",
+      "frequency": "logic",
+      "severity": "2026-04-30T01:44:23.525642",
+      "resolved": true
+    },
+    {
+      "id": 3,
+      "name": "2026-04-30T05:22:20.768045",
+      "category": "在 upload 类别中重复出现 1 次错误",
+      "frequency": "upload",
+      "severity": "2026-04-30T01:44:23.526941",
+      "resolved": true
+    }
+  ],
+  "trends": {}
+}
