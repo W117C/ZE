@@ -1,0 +1,20 @@
+{
+  "refreshed_at": 1777392500,
+  "results": [
+    {
+      "symbol": "600519",
+      "cache": "hit",
+      "sentiment_summary": "strong_bullish"
+    },
+    {
+      "symbol": "300750",
+      "cache": "miss",
+      "sentiment_summary": "strong_bullish"
+    },
+    {
+      "symbol": "000792",
+      "cache": "miss",
+      "sentiment_summary": "strong_bullish"
+    }
+  ]
+}

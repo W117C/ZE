@@ -1,0 +1,37 @@
+{
+  "positions": [
+    {
+      "symbol": "000792",
+      "quantity": 3000,
+      "avg_price": 16.54,
+      "current_price": 16.54,
+      "entry_date": "2026-04-29",
+      "last_updated": "2026-04-29 16:57:55"
+    },
+    {
+      "symbol": "000408",
+      "quantity": 1300,
+      "avg_price": 27.12,
+      "current_price": 27.12,
+      "entry_date": "2026-04-29",
+      "last_updated": "2026-04-29 16:57:55"
+    },
+    {
+      "symbol": "000975",
+      "quantity": 1700,
+      "avg_price": 16.59,
+      "current_price": 16.59,
+      "entry_date": "2026-04-29",
+      "last_updated": "2026-04-29 16:57:55"
+    },
+    {
+      "symbol": "000630",
+      "quantity": 6200,
+      "avg_price": 3.45,
+      "current_price": 3.45,
+      "entry_date": "2026-04-29",
+      "last_updated": "2026-04-29 16:57:55"
+    }
+  ],
+  "history": []
+}

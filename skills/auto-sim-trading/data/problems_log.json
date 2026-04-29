@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2026-04-28 23:30:47",
+    "date": "2026-04-28",
+    "category": "data",
+    "description": "情绪数据获取失败，Reddit 源不可用",
+    "suggestion": "检查网络或切换情绪数据源"
+  }
+]

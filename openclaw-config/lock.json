@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "skills": {
+    "pua": {
+      "version": "1.0.0",
+      "installedAt": 1777373005599
+    },
+    "finance-data": {
+      "version": "1.0.0",
+      "installedAt": 1777373006678
+    },
+    "agent-evolver": {
+      "version": "1.0.0",
+      "installedAt": 1777373035455
+    },
+    "error-driven-evolution": {
+      "version": "1.0.0",
+      "installedAt": 1777373056633
+    },
+    "close-loop": {
+      "version": "2.1.1",
+      "installedAt": 1777373067007
+    },
+    "failure-memory": {
+      "version": "1.5.0",
+      "installedAt": 1777373075929
+    },
+    "qoderwork-ppt": {
+      "version": "1.0.0",
+      "installedAt": 1777373107428
+    },
+    "waiy-browser": {
+      "version": "1.0.0",
+      "installedAt": 1777373127830
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1777373137907
+    },
+    "zero-rules": {
+      "version": "1.0.3",
+      "installedAt": 1777373153433
+    },
+    "canary": {
+      "version": "1.0.0",
+      "installedAt": 1777373165671
+    },
+    "a-share-real-time-data": {
+      "version": "1.0.0",
+      "installedAt": 1777373180247
+    },
+    "2nd-brain": {
+      "version": "1.3.0",
+      "installedAt": 1777373191085
+    },
+    "session-logs": {
+      "version": "1.0.0",
+      "installedAt": 1777373207941
+    },
+    "csvtoexcel": {
+      "version": "1.0.0",
+      "installedAt": 1777373218530
+    },
+    "humanize-chinese": {
+      "version": "2.4.0",
+      "installedAt": 1777373240299
+    },
+    "systematic-debugging": {
+      "version": "1.0.0",
+      "installedAt": 1777373261791
+    },
+    "daily-news": {
+      "version": "1.0.0",
+      "installedAt": 1777373272285
+    },
+    "oyi77-data-analyst": {
+      "version": "1.0.0",
+      "installedAt": 1777373285660
+    },
+    "elite-longterm-memory": {
+      "version": "1.2.3",
+      "installedAt": 1777373298216
+    },
+    "moltguard": {
+      "version": "6.8.20",
+      "installedAt": 1777373317101
+    },
+    "academic-deep-research": {
+      "version": "1.0.0",
+      "installedAt": 1777373342684
+    },
+    "self-evolve": {
+      "version": "1.0.0",
+      "installedAt": 1777373359905
+    },
+    "thesethrose-agent-browser": {
+      "version": "1.0.0",
+      "installedAt": 1777373379362
+    },
+    "office-document-specialist-suite": {
+      "version": "1.0.2",
+      "installedAt": 1777373399860
+    }
+  }
+}

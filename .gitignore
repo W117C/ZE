@@ -1,19 +1,20 @@
-# 敏感信息
-*.json
-!config/openclaw-example.json
-!assets.user-watchlist.json
+# 敏感信息（脱敏）
+openclaw.json.bak*
 
 # 缓存/数据库
 *.sqlite3
 *.sqlite
+*.lock
+
+# Python
 __pycache__/
 *.pyc
 
-# 日志
-*.log
+# 大文件/媒体
+media/
+*.jpg
+*.png
+*.gif
 
-# 报告
-reports/*
-
-# 数据
-data/
+# 临时文件
+.restore/

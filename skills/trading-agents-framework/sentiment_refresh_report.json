@@ -1,0 +1,47 @@
+{
+  "refreshed_at": "2026-04-29 18:02:51",
+  "count": 5,
+  "status": "全部成功",
+  "results": [
+    {
+      "symbol": "600519",
+      "name": "贵州茅台",
+      "cache": "miss",
+      "sentiment_summary": "strong_bullish",
+      "composite_score": 76.40009073,
+      "attention_index": 94.4
+    },
+    {
+      "symbol": "300750",
+      "name": "宁德时代",
+      "cache": "miss",
+      "sentiment_summary": "strong_bullish",
+      "composite_score": 86.22386396,
+      "attention_index": 92.4
+    },
+    {
+      "symbol": "600036",
+      "name": "招商银行",
+      "cache": "miss",
+      "sentiment_summary": "strong_bullish",
+      "composite_score": 71.0466733,
+      "attention_index": 91.2
+    },
+    {
+      "symbol": "601899",
+      "name": "紫金矿业",
+      "cache": "miss",
+      "sentiment_summary": "strong_bullish",
+      "composite_score": 77.16086958,
+      "attention_index": 92.8
+    },
+    {
+      "symbol": "688981",
+      "name": "中芯国际",
+      "cache": "miss",
+      "sentiment_summary": "strong_bullish",
+      "composite_score": 70.03130285,
+      "attention_index": 92.4
+    }
+  ]
+}

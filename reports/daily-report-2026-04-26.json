@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-26",
+  "generated_at": "2026-04-26 15:30:00",
+  "today_trades": [],
+  "today_problems": [
+    {
+      "category": "data",
+      "description": "情绪数据获取失败",
+      "suggestion": "检查数据源"
+    }
+  ],
+  "portfolio": {
+    "positions": []
+  },
+  "market_summary": null,
+  "improvements": [
+    "情绪数据源不稳定"
+  ],
+  "summary": {
+    "trade_count": 0,
+    "problem_count": 1,
+    "position_count": 0
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29 16:58:26",
+  "account": {
+    "initial_capital": 200000,
+    "current_capital": 200000,
+    "total_value": 200000,
+    "cash": 65531.0,
+    "market_value": 0,
+    "total_return_pct": 0,
+    "max_drawdown_pct": 0,
+    "peak_value": 200000,
+    "created_at": "2026-04-29 00:17:39",
+    "last_updated": "2026-04-29 00:17:39",
+    "trade_count": 4
+  },
+  "today_trades": [
+    {
+      "timestamp": "2026-04-29 16:57:55",
+      "date": "2026-04-29",
+      "action": "buy",
+      "symbol": "000792",
+      "price": 16.54,
+      "quantity": 3000,
+      "reason": "买入评分 79.92 | 趋势100/风险79.67/流动性50"
+    },
+    {
+      "timestamp": "2026-04-29 16:57:55",
+      "date": "2026-04-29",
+      "action": "buy",
+      "symbol": "000408",
+      "price": 27.12,
+      "quantity": 1300,
+      "reason": "买入评分 79.28 | 趋势100/风险77.13/流动性50"
+    },
+    {
+      "timestamp": "2026-04-29 16:57:55",
+      "date": "2026-04-29",
+      "action": "buy",
+      "symbol": "000975",
+      "price": 16.59,
+      "quantity": 1700,
+      "reason": "买入评分 78.95 | 趋势99.43/风险76.84/流动性50"
+    },
+    {
+      "timestamp": "2026-04-29 16:57:55",
+      "date": "2026-04-29",
+      "action": "buy",
+      "symbol": "000630",
+      "price": 3.45,
+      "quantity": 6200,
+      "reason": "买入评分 78.87 | 趋势100/风险75.46/流动性50"
+    }
+  ],
+  "today_problems": [],
+  "portfolio": {
+    "positions": [
+      {
+        "symbol": "000792",
+        "quantity": 3000,
+        "avg_price": 16.54,
+        "current_price": 16.54,
+        "entry_date": "2026-04-29",
+        "last_updated": "2026-04-29 16:57:55"
+      },
+      {
+        "symbol": "000408",
+        "quantity": 1300,
+        "avg_price": 27.12,
+        "current_price": 27.12,
+        "entry_date": "2026-04-29",
+        "last_updated": "2026-04-29 16:57:55"
+      },
+      {
+        "symbol": "000975",
+        "quantity": 1700,
+        "avg_price": 16.59,
+        "current_price": 16.59,
+        "entry_date": "2026-04-29",
+        "last_updated": "2026-04-29 16:57:55"
+      },
+      {
+        "symbol": "000630",
+        "quantity": 6200,
+        "avg_price": 3.45,
+        "current_price": 3.45,
+        "entry_date": "2026-04-29",
+        "last_updated": "2026-04-29 16:57:55"
+      }
+    ],
+    "history": []
+  },
+  "market_summary": {
+    "candidates": [
+      {
+        "symbol": "000792",
+        "name": "盐湖股份",
+        "price": 16.54,
+        "trend_score": 100,
+        "risk_score": 79.67,
+        "liquidity_score": 50,
+        "total_score": 79.92,
+        "price_change_pct": 73.04,
+        "volatility": 2.03,
+        "avg_volume": 59492777.116
+      },
+      {
+        "symbol": "000408",
+        "name": "藏格矿业",
+        "price": 27.12,
+        "trend_score": 100,
+        "risk_score": 77.13,
+        "liquidity_score": 50,
+        "total_score": 79.28,
+        "price_change_pct": 211.21,
+        "volatility": 2.29,
+        "avg_volume": 11567285.804
+      },
+      {
+        "symbol": "000975",
+        "name": "山金国际",
+        "price": 16.59,
+        "trend_score": 99.43,
+        "risk_score": 76.84,
+        "liquidity_score": 50,
+        "total_score": 78.95,
+        "price_change_pct": 49.43,
+        "volatility": 2.32,
+        "avg_volume": 31941919.616
+      },
+      {
+        "symbol": "000630",
+        "name": "铜陵有色",
+        "price": 3.45,
+        "trend_score": 100,
+        "risk_score": 75.46,
+        "liquidity_score": 50,
+        "total_score": 78.87,
+        "price_change_pct": 61.16,
+        "volatility": 2.45,
+        "avg_volume": 249120782.264
+      },
+      {
+        "symbol": "000807",
+        "name": "云铝股份",
+        "price": 14.68,
+        "trend_score": 100,
+        "risk_score": 75.12,
+        "liquidity_score": 50,
+        "total_score": 78.78,
+        "price_change_pct": 104.09,
+        "volatility": 2.49,
+        "avg_volume": 46691805.008
+      },
+      {
+        "symbol": "002028",
+        "name": "思源电气",
+        "price": 71.94,
+        "trend_score": 100,
+        "risk_score": 74.81,
+        "liquidity_score": 50,
+        "total_score": 78.7,
+        "price_change_pct": 108.31,
+        "volatility": 2.52,
+        "avg_volume": 6803113.624
+      },
+      {
+        "symbol": "002074",
+        "name": "国轩高科",
+        "price": 21.63,
+        "trend_score": 100,
+        "risk_score": 73.0,
+        "liquidity_score": 50,
+        "total_score": 78.25,
+        "price_change_pct": 81.88,
+        "volatility": 2.7,
+        "avg_volume": 59804152.24
+      },
+      {
+        "symbol": "002466",
+        "name": "天齐锂业",
+        "price": 35.21,
+        "trend_score": 100,
+        "risk_score": 70.98,
+        "liquidity_score": 50,
+        "total_score": 77.75,
+        "price_change_pct": 59.78,
+        "volatility": 2.9,
+        "avg_volume": 44953608.272
+      },
+      {
+        "symbol": "002460",
+        "name": "赣锋锂业",
+        "price": 37.28,
+        "trend_score": 100,
+        "risk_score": 70.55,
+        "liquidity_score": 50,
+        "total_score": 77.64,
+        "price_change_pct": 79.16,
+        "volatility": 2.94,
+        "avg_volume": 47428632.576
+      },
+      {
+        "symbol": "002475",
+        "name": "立讯精密",
+        "price": 39.78,
+        "trend_score": 99.04,
+        "risk_score": 70.57,
+        "liquidity_score": 50,
+        "total_score": 77.21,
+        "price_change_pct": 49.04,
+        "volatility": 2.94,
+        "avg_volume": 124439392.212
+      }
+    ],
+    "news": [
+      {
+        "tag": "华尔街原声",
+        "title": "私募股权投资基金Elevation Partners联合创始人Roger McNamee认为，尽管AI技术本身具有实用价值且在未来会持续升级，但整个行业目前已消耗了高达1万亿美元的资金，这种极其严重的",
+        "summary": "私募股权投资基金Elevation Partners联合创始人Roger McNamee认为，尽管AI技术本身具有实用价值且在未来会持续升级，但整个行业目前已消耗了高达1万亿美元的资金，这种极其严重的资本错配，投资者将很难从中获得合理的财务回报",
+        "url": "https://database.caixin.com/2026-04-28/102438868.html?cxapp_link=true",
+        "date": "2026-04-28"
+      },
+      {
+        "tag": "市场动态",
+        "title": "布伦特原油价格升至111美元以上，使本周累计涨幅接近6%；与此同时，WTI原油价格也在98美元以上",
+        "summary": "布伦特原油价格升至111美元以上，使本周累计涨幅接近6%；与此同时，WTI原油价格也在98美元以上",
+        "url": "https://database.caixin.com/2026-04-28/102438838.html?cxapp_link=true",
+        "date": "2026-04-28"
+      },
+      {
+        "tag": "市场动态",
+        "title": "该行周二发布公告表示，固定收益交易业务的收入为17亿英镑（23亿美元），与去年同期基本持平；而股票交易业务收入为11亿英镑，比去年同期增长16%",
+        "summary": "该行周二发布公告表示，固定收益交易业务的收入为17亿英镑（23亿美元），与去年同期基本持平；而股票交易业务收入为11亿英镑，比去年同期增长16%",
+        "url": "https://database.caixin.com/2026-04-28/102438840.html?cxapp_link=true",
+        "date": "2026-04-28"
+      },
+      {
+        "tag": "市场动态",
+        "title": "市场先前预期欧洲央行将大幅提高借贷成本以应对中东战争引发的通胀，导致债券近几个月来遭到抛售，如今这些债券获得上述资金管理公司青睐",
+        "summary": "市场先前预期欧洲央行将大幅提高借贷成本以应对中东战争引发的通胀，导致债券近几个月来遭到抛售，如今这些债券获得上述资金管理公司青睐",
+        "url": "https://database.caixin.com/2026-04-28/102438842.html?cxapp_link=true",
+        "date": "2026-04-28"
+      },
+      {
+        "tag": "公司速递",
+        "title": "近期光模块估值水涨船高，已经潜藏较大风险，此时新易盛这份“不及预期”的财报，成为触发资金出逃的导火索",
+        "summary": "近期光模块估值水涨船高，已经潜藏较大风险，此时新易盛这份“不及预期”的财报，成为触发资金出逃的导火索",
+        "url": "https://database.caixin.com/2026-04-28/102438761.html?cxapp_link=true",
+        "date": "2026-04-28"
+      }
+    ]
+  },
+  "improvements": [
+    "建议每日检查情绪数据源是否正常获取",
+    "建议定期审视因子权重是否需要调整"
+  ],
+  "summary": {
+    "trade_count": 4,
+    "problem_count": 0,
+    "position_count": 4,
+    "total_value": 200000,
+    "return_pct": 0
+  },
+  "candidates": [
+    {
+      "symbol": "000792",
+      "name": "盐湖股份",
+      "price": 16.54,
+      "trend_score": 100,
+      "risk_score": 79.67,
+      "liquidity_score": 50,
+      "total_score": 79.92,
+      "price_change_pct": 73.04,
+      "volatility": 2.03,
+      "avg_volume": 59492777.116
+    },
+    {
+      "symbol": "000408",
+      "name": "藏格矿业",
+      "price": 27.12,
+      "trend_score": 100,
+      "risk_score": 77.13,
+      "liquidity_score": 50,
+      "total_score": 79.28,
+      "price_change_pct": 211.21,
+      "volatility": 2.29,
+      "avg_volume": 11567285.804
+    },
+    {
+      "symbol": "000975",
+      "name": "山金国际",
+      "price": 16.59,
+      "trend_score": 99.43,
+      "risk_score": 76.84,
+      "liquidity_score": 50,
+      "total_score": 78.95,
+      "price_change_pct": 49.43,
+      "volatility": 2.32,
+      "avg_volume": 31941919.616
+    },
+    {
+      "symbol": "000630",
+      "name": "铜陵有色",
+      "price": 3.45,
+      "trend_score": 100,
+      "risk_score": 75.46,
+      "liquidity_score": 50,
+      "total_score": 78.87,
+      "price_change_pct": 61.16,
+      "volatility": 2.45,
+      "avg_volume": 249120782.264
+    },
+    {
+      "symbol": "000807",
+      "name": "云铝股份",
+      "price": 14.68,
+      "trend_score": 100,
+      "risk_score": 75.12,
+      "liquidity_score": 50,
+      "total_score": 78.78,
+      "price_change_pct": 104.09,
+      "volatility": 2.49,
+      "avg_volume": 46691805.008
+    },
+    {
+      "symbol": "002028",
+      "name": "思源电气",
+      "price": 71.94,
+      "trend_score": 100,
+      "risk_score": 74.81,
+      "liquidity_score": 50,
+      "total_score": 78.7,
+      "price_change_pct": 108.31,
+      "volatility": 2.52,
+      "avg_volume": 6803113.624
+    },
+    {
+      "symbol": "002074",
+      "name": "国轩高科",
+      "price": 21.63,
+      "trend_score": 100,
+      "risk_score": 73.0,
+      "liquidity_score": 50,
+      "total_score": 78.25,
+      "price_change_pct": 81.88,
+      "volatility": 2.7,
+      "avg_volume": 59804152.24
+    },
+    {
+      "symbol": "002466",
+      "name": "天齐锂业",
+      "price": 35.21,
+      "trend_score": 100,
+      "risk_score": 70.98,
+      "liquidity_score": 50,
+      "total_score": 77.75,
+      "price_change_pct": 59.78,
+      "volatility": 2.9,
+      "avg_volume": 44953608.272
+    },
+    {
+      "symbol": "002460",
+      "name": "赣锋锂业",
+      "price": 37.28,
+      "trend_score": 100,
+      "risk_score": 70.55,
+      "liquidity_score": 50,
+      "total_score": 77.64,
+      "price_change_pct": 79.16,
+      "volatility": 2.94,
+      "avg_volume": 47428632.576
+    },
+    {
+      "symbol": "002475",
+      "name": "立讯精密",
+      "price": 39.78,
+      "trend_score": 99.04,
+      "risk_score": 70.57,
+      "liquidity_score": 50,
+      "total_score": 77.21,
+      "price_change_pct": 49.04,
+      "volatility": 2.94,
+      "avg_volume": 124439392.212
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.13",
+    "lastTouchedAt": "2026-04-29T13:16:22.299Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-04T05:52:16.239Z",
+    "lastRunVersion": "2026.2.1",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "logging": {
+    "consoleLevel": "debug",
+    "consoleStyle": "pretty"
+  },
+  "browser": {
+    "enabled": true,
+    "defaultProfile": "openclaw"
+  },
+  "models": {
+    "providers": {
+      "gateway": {
+        "baseUrl": "http://localhost:18801/v1/jarvis/",
+        "apiKey": "sk-******=",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "jarvis",
+            "name": "jarvis",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1000000,
+            "maxTokens": 65536,
+            "compat": {
+              "thinkingFormat": "qwen"
+            }
+          }
+        ]
+      },
+      "my-custom": {
+        "baseUrl": "https://mx.free.codesonline.dev/v1",
+        "apiKey": "sk-472a96a65b7f1c0de4e6e4ceaeeb252f20ff7e9606e4a02e11a9ddc079638ed9",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gpt-5.4",
+            "name": "gpt-5.4",
+            "api": "openai-completions",
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 128000,
+            "maxTokens": 900000
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "gateway/jarvis"
+      },
+      "models": {
+        "gateway/jarvis": {}
+      },
+      "workspace": "~/openclaw/workspace",
+      "memorySearch": {
+        "enabled": false
+      },
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "heartbeat": {
+        "every": "24h"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "tools": {
+    "profile": "full",
+    "web": {
+      "search": {
+        "enabled": false
+      },
+      "fetch": {
+        "enabled": true
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-account-channel-peer",
+    "reset": {
+      "mode": "idle",
+      "idleMinutes": 4320
+    }
+  },
+  "cron": {
+    "enabled": true,
+    "maxConcurrentRuns": 6
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "jvsclaw": {
+      "enabled": true,
+      "apiAddr": "https://jvs-im.wuyinggw.com",
+      "wsAddr": "wss://jvs-im-ws.wuyinggw.com",
+      "secret": "",
+      "botUserID": "ws-0bjrh3owxd7jbdffm"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "ef16ce0c-d1f4-4267-918f-3afe03c69c98"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "http": {
+      "endpoints": {
+        "chatCompletions": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "jvsclaw": {
+        "enabled": true
+      },
+      "wuying-jarvic": {
+        "enabled": true
+      }
+    }
+  }
+}
