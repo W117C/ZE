@@ -40,3 +40,7 @@ canvas/
 test.jpg
 jvsclaw-customization.json
 sentiment_refresh_report.json
+
+# openclaw-settings 中排除设备认证（安全考虑）
+openclaw-settings/identity/device-auth.json
+openclaw-settings/devices/paired.json

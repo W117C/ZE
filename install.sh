@@ -36,30 +36,32 @@ if command -v openclaw &>/dev/null; then
     echo ""
     echo "🔧 安装 Skills 到 OpenClaw..."
     
-    # 查找 skills 目录
-    SKILLS_DIR="./skills"
     OPENCLAW_SKILLS_DIR="$HOME/.openclaw/skills"
+    OPENCLAW_CRON_DIR="$HOME/.openclaw/cron"
+    OPENCLAW_SETTINGS_DIR="$HOME/.openclaw"
     
-    if [ -d "$SKILLS_DIR" ]; then
-        mkdir -p "$OPENCLAW_SKILLS_DIR"
-        for skill in "$SKILLS_DIR"/*/; do
-            SKILL_NAME=$(basename "$skill")
-            if [ -f "$skill/SKILL.md" ]; then
-                cp -r "$skill" "$OPENCLAW_SKILLS_DIR/"
-                echo "  ✅ $SKILL_NAME"
-            fi
-        done
-    fi
+    # 安装 skills
+    for src in "./skills" "./openclaw-config/skills"; do
+        if [ -d "$src" ]; then
+            for skill in "$src"/*/; do
+                SKILL_NAME=$(basename "$skill")
+                if [ -f "$skill/SKILL.md" ]; then
+                    cp -r "$skill" "$OPENCLAW_SKILLS_DIR/"
+                    echo "  ✅ $SKILL_NAME"
+                fi
+            done
+        fi
+    done
     
-    # 安装 config 目录的 skills
-    if [ -d "./openclaw-config/skills" ]; then
-        for skill in "./openclaw-config/skills"/*/; do
-            SKILL_NAME=$(basename "$skill")
-            if [ -f "$skill/SKILL.md" ]; then
-                cp -r "$skill" "$OPENCLAW_SKILLS_DIR/"
-                echo "  ✅ $SKILL_NAME (from config)"
-            fi
-        done
+    # 复制 OpenClaw 完整设置
+    if [ -d "./openclaw-settings" ]; then
+        echo ""
+        echo "🔧 安装 OpenClaw 系统设置..."
+        
+        cp ./openclaw-settings/cron/jobs.json "$OPENCLAW_CRON_DIR/" 2>/dev/null && echo "  ✅ cron/jobs.json"
+        cp ./openclaw-settings/systemd/openclaw-gateway.service "$HOME/.config/systemd/user/" 2>/dev/null && echo "  ✅ systemd service"
+        cp ./openclaw-settings/exec-approvals.json "$OPENCLAW_SETTINGS_DIR/" 2>/dev/null && echo "  ✅ exec-approvals.json"
+        cp ./openclaw-settings/env/openclaw.env "$OPENCLAW_SETTINGS_DIR/" 2>/dev/null && echo "  ✅ env/openclaw.env"
     fi
     
     # 复制 workspace 配置
@@ -68,7 +70,11 @@ if command -v openclaw &>/dev/null; then
             mkdir -p "$HOME/openclaw/workspace"
             cp ./workspace/*.md "$HOME/openclaw/workspace/"
         }
-        echo "  ✅ Workspace 配置已复制"
+        echo "  ✅ Workspace 配置"
+        
+        if [ -d "./workspace/memory" ]; then
+            cp -r ./workspace/memory "$HOME/openclaw/workspace/" 2>/dev/null && echo "  ✅ memory/"
+        fi
     fi
     
     echo ""
