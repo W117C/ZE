@@ -23,3 +23,11 @@ media/
 # 临时文件
 .restore/
 *.log
+
+# 排除大二进制
+*.jvs
+*.zip
+
+# 排除系统文件
+workspace-state.json
+.MARK.md
