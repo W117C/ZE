@@ -1,0 +1,204 @@
+{
+  "512c16ab47e86283652fe87f3c171285763386d9cb0047cf191bd7e6418eb476": {
+    "deviceId": "512c16ab47e86283652fe87f3c171285763386d9cb0047cf191bd7e6418eb476",
+    "publicKey": "OIwvLT1HZ_9xXJrbV7VIR0CzNkWYpcp28xC5otahkYE",
+    "platform": "Linux x86_64",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "5b0cc097f67f4fea846684181cadffc9",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1770184256890,
+        "lastUsedAtMs": 1770184438535
+      }
+    },
+    "createdAtMs": 1770184256890,
+    "approvedAtMs": 1770184256890
+  },
+  "a89dfebc420c2eb6a270ba5c8e944bfcc55c2f07fbe57a26bb0ede0e30a72b22": {
+    "deviceId": "a89dfebc420c2eb6a270ba5c8e944bfcc55c2f07fbe57a26bb0ede0e30a72b22",
+    "publicKey": "ETqnuNPVPiqmAg9pVqwIlILgYyHMI5mONk_ax5SMkac",
+    "platform": "linux",
+    "clientId": "cli",
+    "clientMode": "cli",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing",
+      "operator.read",
+      "operator.write"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "590f2052bf76447284b0390edea9d01a",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1770184299011,
+        "lastUsedAtMs": 1770191792604
+      }
+    },
+    "createdAtMs": 1770184299011,
+    "approvedAtMs": 1770184299011
+  },
+  "c12dd01be281018b2b892c92711b7331e73a167df751bcd30aa21352df5bcf35": {
+    "deviceId": "c12dd01be281018b2b892c92711b7331e73a167df751bcd30aa21352df5bcf35",
+    "publicKey": "hRtbyKwMwO-kLI42nkPBt75kX5y_sVcRVjmPFOcaWM8",
+    "platform": "Linux x86_64",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "d47d73c4123146b8806121d677aeb065",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1770186126119,
+        "lastUsedAtMs": 1770191638619
+      }
+    },
+    "createdAtMs": 1770186126119,
+    "approvedAtMs": 1770186126119
+  },
+  "9a062666e045bedbd0d9646a20e39f7ef4bfc2ea38c462c53745952dafe86257": {
+    "deviceId": "9a062666e045bedbd0d9646a20e39f7ef4bfc2ea38c462c53745952dafe86257",
+    "publicKey": "BJkEWy_5rET11ABhhedLnTZD9yGsfgMgMcA0TocP48k",
+    "displayName": "Jarvis Connector Proxy",
+    "platform": "nodejs",
+    "clientId": "cli",
+    "clientMode": "cli",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write"
+    ],
+    "approvedScopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "Q50U2ZP4BZRZx0Spk0N8W_Ln7BXoTsc55lj55pxIdZc",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.read",
+          "operator.write"
+        ],
+        "createdAtMs": 1777372683460
+      }
+    },
+    "createdAtMs": 1777372683459,
+    "approvedAtMs": 1777372683459
+  },
+  "96327bdde15277c6982e36f9a333b0700ec86bf0eb0358dd05cc289485d4ebfa": {
+    "deviceId": "96327bdde15277c6982e36f9a333b0700ec86bf0eb0358dd05cc289485d4ebfa",
+    "publicKey": "jzQDzhCzulADm9wxpvTZmWk9aaI1KHhuxkwWT8lwFCc",
+    "platform": "Linux x86_64",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "approvedScopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "r00CNZNjO6fbKd3J5T_JLUh6HnA3TMfkzW8goN3hTb0",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1777383201673
+      }
+    },
+    "createdAtMs": 1777383201672,
+    "approvedAtMs": 1777383201672
+  },
+  "6d6982c90c76a7393dcf306050b8b84dc12a0eb26954f16128fb88002f75f343": {
+    "deviceId": "6d6982c90c76a7393dcf306050b8b84dc12a0eb26954f16128fb88002f75f343",
+    "publicKey": "oshXV1QFEnrizw1uuTWxVaFskD-pLR7VrMQeI8C498E",
+    "displayName": "Jarvis Connector Proxy",
+    "platform": "nodejs",
+    "clientId": "cli",
+    "clientMode": "cli",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write"
+    ],
+    "approvedScopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "OtF_IPsUkAAUL-xVJALr6jFXh6_qVNlaX1OuCQJ-g60",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.read",
+          "operator.write"
+        ],
+        "createdAtMs": 1777432397289
+      }
+    },
+    "createdAtMs": 1777432397289,
+    "approvedAtMs": 1777432397289
+  }
+}

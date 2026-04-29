@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "3e819ca5-3c34-4f80-8b11-ab051f1c9e49",
+      "agentId": "main",
+      "sessionKey": "agent:main:jvsclaw:default:direct:3184916782",
+      "name": "auto-sim-trading-daily-report",
+      "enabled": true,
+      "createdAtMs": 1777383270184,
+      "updatedAtMs": 1777447878837,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 15 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "提醒：这是自动模拟炒股日报时间。请运行 /home/admin/.openclaw/skills/auto-sim-trading/scripts/generate_daily_report.py --out /home/admin/openclaw/workspace/reports/daily-report.json --send --reflect，并将生成的报告发送到聊天窗口。报告包括今日操作、今日问题和需要改进的地方。运行完后会自动执行反思分析，识别系统性问题并生成升级任务。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "jvsclaw",
+        "to": "3184916782"
+      },
+      "state": {
+        "nextRunAtMs": 1777534200000,
+        "lastRunAtMs": 1777447800006,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 78831,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "f5197e29-8312-4515-927d-fcdcca4d2a88",
+      "agentId": "main",
+      "sessionKey": "agent:main:jvsclaw:default:direct:3184916782",
+      "name": "trading-framework-sentiment-cache-refresh",
+      "enabled": true,
+      "createdAtMs": 1777387613863,
+      "updatedAtMs": 1777456978164,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 */6 * * *",
+        "tz": "Asia/Shanghai",
+        "staggerMs": 300000
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "提醒：这是 trading-agents-framework 的 sentiment cache 定时批量刷新任务。请运行 /home/admin/.openclaw/skills/trading-agents-framework/scripts/refresh_sentiment_cache.py（它会自动从 auto-sim-trading watchlist 读取所有股票），并记录结果。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "to": "3184916782",
+        "channel": "jvsclaw"
+      },
+      "state": {
+        "nextRunAtMs": 1777478540338,
+        "lastRunAtMs": 1777456940341,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 37823,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
+      }
+    }
+  ]
+}

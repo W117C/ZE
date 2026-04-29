@@ -1,0 +1,23 @@
+[Unit]
+Description=OpenClaw Gateway (per-user, /opt)
+After=network-online.target graphical-session.target
+Wants=network-online.target
+StartLimitIntervalSec=30
+StartLimitBurst=3
+OnFailure=openclaw-gateway-failure.service
+
+[Service]
+Type=simple
+PassEnvironment=DISPLAY XAUTHORITY WAYLAND_DISPLAY XDG_RUNTIME_DIR
+ExecStartPre=/bin/bash -c '[ -n "$DISPLAY" ] || [ -n "$WAYLAND_DISPLAY" ] || exit 1'
+ExecStart=/bin/bash -c 'source /opt/jvs-claw/activate.sh; /usr/local/bin/openclaw-gateway'
+Restart=always
+RestartSec=2
+KillMode=process
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+Environment=OPENCLAW_HOME=%h
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
