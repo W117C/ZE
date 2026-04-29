@@ -1,0 +1,19 @@
+# 敏感信息
+*.json
+!config/openclaw-example.json
+!assets.user-watchlist.json
+
+# 缓存/数据库
+*.sqlite3
+*.sqlite
+__pycache__/
+*.pyc
+
+# 日志
+*.log
+
+# 报告
+reports/*
+
+# 数据
+data/
