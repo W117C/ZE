@@ -1,4 +1,4 @@
-# 敏感信息（脱敏）
+# 敏感信息
 openclaw.json.bak*
 
 # 缓存/数据库
@@ -9,6 +9,10 @@ openclaw.json.bak*
 # Python
 __pycache__/
 *.pyc
+*.egg-info/
+.eggs/
+dist/
+build/
 
 # 大文件/媒体
 media/
@@ -18,3 +22,4 @@ media/
 
 # 临时文件
 .restore/
+*.log
