@@ -20,14 +20,23 @@ media/
 *.png
 *.gif
 
-# 临时文件
+# 临时文件/系统文件
 .restore/
-*.log
-
-# 排除大二进制
 *.jvs
-*.zip
-
-# 排除系统文件
+*.log
 workspace-state.json
 .MARK.md
+
+# 内部开发计划（不推送到公开仓库）
+workspace/temp/
+
+# 运行时数据
+skills/auto-sim-trading/data/
+skills/trading-agents-framework/assets.*
+skills/trading-agents-framework/sentiment_refresh_report.json
+
+# 系统文件
+canvas/
+test.jpg
+jvsclaw-customization.json
+sentiment_refresh_report.json
