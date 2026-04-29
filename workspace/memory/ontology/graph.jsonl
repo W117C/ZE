@@ -1,0 +1,11 @@
+{"op":"create","entity":{"id":"market_20260428","type":"Event","properties":{"title":"2026-04-28 金融市场查询","date":"2026-04-28","tags":["金融市场","A股","美股","原油","黄金"]}}}
+{"op":"create","entity":{"id":"astock_20260428","type":"Note","properties":{"content":"A股收盘：上证4078.64(-0.19%)，深成14830.46(-1.10%)，创业3596.71(-1.43%)，科创50 1488.66(-1.31%)。全线收绿，中小盘跌幅更大。","tags":["A股","行情"]}}}
+{"op":"create","entity":{"id":"hkstock_20260428","type":"Note","properties":{"content":"港股收盘：恒生指数25679.78(-0.95%)，国企指数8644.81(-1.27%)","tags":["港股","行情"]}}}
+{"op":"create","entity":{"id":"usstock_20260428","type":"Note","properties":{"content":"美股盘前期货：纳指100 24887.10(+0.20%)，标普500 7173.91(+0.12%)","tags":["美股","期货"]}}}
+{"op":"create","entity":{"id":"commodity_20260428","type":"Note","properties":{"content":"WTI原油~$100.18(+3.95%)，布伦特~$104.62(+2.88%)，COMEX黄金~$4592.5(-2.16%)，COMEX白银~$73.03(-2.67%)","tags":["原油","黄金","白银"]}}}
+{"op":"create","entity":{"id":"news_20260428","type":"Note","properties":{"content":"关键新闻：阿联酋退出OPEC+(5/1起)、OpenAI销售目标未达标致概念股大跌、谷歌与美国国防部签AI协议、欧盟要求谷歌开放安卓AI服务","tags":["新闻","OPEC","AI"]}}}
+{"op":"relate","from":"market_20260428","rel":"has_data","to":"astock_20260428"}
+{"op":"relate","from":"market_20260428","rel":"has_data","to":"hkstock_20260428"}
+{"op":"relate","from":"market_20260428","rel":"has_data","to":"usstock_20260428"}
+{"op":"relate","from":"market_20260428","rel":"has_data","to":"commodity_20260428"}
+{"op":"relate","from":"market_20260428","rel":"has_data","to":"news_20260428"}
