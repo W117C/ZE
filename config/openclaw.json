@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-04-29T23:21:22.211Z"
+    "lastTouchedAt": "2026-04-30T07:25:22.248Z"
   },
   "wizard": {
     "lastRunAt": "2026-02-04T05:52:16.239Z",
@@ -70,7 +70,7 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "my-custom/gpt-5.4"
+        "primary": "gateway/jarvis"
       },
       "models": {
         "gateway/jarvis": {}

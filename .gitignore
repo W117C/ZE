@@ -44,3 +44,12 @@ sentiment_refresh_report.json
 # openclaw-settings 中排除设备认证（安全考虑）
 openclaw-settings/identity/device-auth.json
 openclaw-settings/devices/paired.json
+
+# 数据库文件（太大）
+*.db
+*.sqlite
+*.sqlite3
+
+# 报告目录（只保留最新的）
+workspace/reports/news-trend-*.json
+workspace/reports/news-aggregator/*.json

@@ -1,0 +1,18 @@
+types:
+  Project:
+    required:
+    - name
+  Task:
+    required:
+    - title
+    - status
+  Fund:
+    required:
+    - code
+    - name
+  Skill:
+    required:
+    - name
+  Note:
+    required:
+    - content

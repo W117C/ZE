@@ -1,0 +1,20 @@
+{
+  "count": 25,
+  "candidates": [
+    {
+      "name": "避免短期推长期",
+      "source": "用户审计反馈",
+      "status": "active"
+    },
+    {
+      "name": "资产当工具",
+      "source": "用户审计反馈",
+      "status": "active"
+    },
+    {
+      "name": "上传纪律",
+      "source": "错误追踪",
+      "status": "active"
+    }
+  ]
+}

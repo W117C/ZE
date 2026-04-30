@@ -1,0 +1,364 @@
+{
+  "patterns": [
+    {
+      "id": "pattern_0",
+      "name": "错误模式 0",
+      "category": "analysis",
+      "confidence": "high",
+      "frequency": 1,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_1",
+      "name": "错误模式 1",
+      "category": "logic",
+      "confidence": "high",
+      "frequency": 2,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_2",
+      "name": "错误模式 2",
+      "category": "upload",
+      "confidence": "high",
+      "frequency": 3,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_3",
+      "name": "错误模式 3",
+      "category": "memory",
+      "confidence": "high",
+      "frequency": 4,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_4",
+      "name": "错误模式 4",
+      "category": "analysis",
+      "confidence": "high",
+      "frequency": 5,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_5",
+      "name": "错误模式 5",
+      "category": "logic",
+      "confidence": "high",
+      "frequency": 6,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_6",
+      "name": "错误模式 6",
+      "category": "upload",
+      "confidence": "high",
+      "frequency": 7,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_7",
+      "name": "错误模式 7",
+      "category": "memory",
+      "confidence": "high",
+      "frequency": 8,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_8",
+      "name": "错误模式 8",
+      "category": "analysis",
+      "confidence": "high",
+      "frequency": 9,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_9",
+      "name": "错误模式 9",
+      "category": "logic",
+      "confidence": "high",
+      "frequency": 10,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_10",
+      "name": "错误模式 10",
+      "category": "upload",
+      "confidence": "high",
+      "frequency": 11,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_11",
+      "name": "错误模式 11",
+      "category": "memory",
+      "confidence": "high",
+      "frequency": 12,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_12",
+      "name": "错误模式 12",
+      "category": "analysis",
+      "confidence": "high",
+      "frequency": 13,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_13",
+      "name": "错误模式 13",
+      "category": "logic",
+      "confidence": "high",
+      "frequency": 14,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_14",
+      "name": "错误模式 14",
+      "category": "upload",
+      "confidence": "high",
+      "frequency": 15,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_15",
+      "name": "错误模式 15",
+      "category": "memory",
+      "confidence": "high",
+      "frequency": 16,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_16",
+      "name": "错误模式 16",
+      "category": "analysis",
+      "confidence": "high",
+      "frequency": 17,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_17",
+      "name": "错误模式 17",
+      "category": "logic",
+      "confidence": "high",
+      "frequency": 18,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_18",
+      "name": "错误模式 18",
+      "category": "upload",
+      "confidence": "high",
+      "frequency": 19,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_19",
+      "name": "错误模式 19",
+      "category": "memory",
+      "confidence": "high",
+      "frequency": 20,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_20",
+      "name": "错误模式 20",
+      "category": "analysis",
+      "confidence": "high",
+      "frequency": 21,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_21",
+      "name": "错误模式 21",
+      "category": "logic",
+      "confidence": "high",
+      "frequency": 22,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_22",
+      "name": "错误模式 22",
+      "category": "upload",
+      "confidence": "high",
+      "frequency": 23,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_23",
+      "name": "错误模式 23",
+      "category": "memory",
+      "confidence": "high",
+      "frequency": 24,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_24",
+      "name": "错误模式 24",
+      "category": "analysis",
+      "confidence": "high",
+      "frequency": 25,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_25",
+      "name": "错误模式 25",
+      "category": "logic",
+      "confidence": "medium",
+      "frequency": 26,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_26",
+      "name": "错误模式 26",
+      "category": "upload",
+      "confidence": "medium",
+      "frequency": 27,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_27",
+      "name": "错误模式 27",
+      "category": "memory",
+      "confidence": "medium",
+      "frequency": 28,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_28",
+      "name": "错误模式 28",
+      "category": "analysis",
+      "confidence": "medium",
+      "frequency": 29,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_29",
+      "name": "错误模式 29",
+      "category": "logic",
+      "confidence": "medium",
+      "frequency": 30,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_30",
+      "name": "错误模式 30",
+      "category": "upload",
+      "confidence": "medium",
+      "frequency": 31,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_31",
+      "name": "错误模式 31",
+      "category": "memory",
+      "confidence": "medium",
+      "frequency": 32,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_32",
+      "name": "错误模式 32",
+      "category": "analysis",
+      "confidence": "medium",
+      "frequency": 33,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_33",
+      "name": "错误模式 33",
+      "category": "logic",
+      "confidence": "medium",
+      "frequency": 34,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_34",
+      "name": "错误模式 34",
+      "category": "upload",
+      "confidence": "medium",
+      "frequency": 35,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_35",
+      "name": "错误模式 35",
+      "category": "memory",
+      "confidence": "medium",
+      "frequency": 36,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_36",
+      "name": "错误模式 36",
+      "category": "analysis",
+      "confidence": "medium",
+      "frequency": 37,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_37",
+      "name": "错误模式 37",
+      "category": "logic",
+      "confidence": "medium",
+      "frequency": 38,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_38",
+      "name": "错误模式 38",
+      "category": "upload",
+      "confidence": "medium",
+      "frequency": 39,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    },
+    {
+      "id": "pattern_39",
+      "name": "错误模式 39",
+      "category": "memory",
+      "confidence": "medium",
+      "frequency": 40,
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-30"
+    }
+  ]
+}

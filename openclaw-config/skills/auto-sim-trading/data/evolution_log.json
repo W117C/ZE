@@ -114,5 +114,20 @@
     },
     "new_tasks": 0,
     "tasks": []
+  },
+  {
+    "date": "2026-04-30",
+    "type": "reflection",
+    "pattern_analysis": {
+      "days_analyzed": 3,
+      "recurring_issues_count": 3,
+      "issues_by_category": {
+        "operation": 3,
+        "data": 3,
+        "sentiment": 3
+      }
+    },
+    "new_tasks": 0,
+    "tasks": []
   }
 ]

@@ -1,0 +1,11 @@
+{
+  "current": "balanced",
+  "config": {
+    "innovate": 50,
+    "optimize": 30,
+    "repair": 20,
+    "description": "日常运行，稳定增长",
+    "trigger": "default"
+  },
+  "updated_at": "2026-04-30T07:10:00"
+}

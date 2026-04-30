@@ -1,0 +1,202 @@
+[
+  {
+    "id": "heal_0",
+    "timestamp": "2026-04-30T05:25:19.309709",
+    "error_id": "err_0",
+    "action": "retry",
+    "success": true,
+    "latency_ms": 50
+  },
+  {
+    "id": "heal_1",
+    "timestamp": "2026-04-29T05:25:19.309727",
+    "error_id": "err_1",
+    "action": "fallback",
+    "success": true,
+    "latency_ms": 60
+  },
+  {
+    "id": "heal_2",
+    "timestamp": "2026-04-28T05:25:19.309735",
+    "error_id": "err_2",
+    "action": "auto_fix",
+    "success": true,
+    "latency_ms": 70
+  },
+  {
+    "id": "heal_3",
+    "timestamp": "2026-04-27T05:25:19.309741",
+    "error_id": "err_3",
+    "action": "retry",
+    "success": true,
+    "latency_ms": 80
+  },
+  {
+    "id": "heal_4",
+    "timestamp": "2026-04-26T05:25:19.309745",
+    "error_id": "err_4",
+    "action": "fallback",
+    "success": true,
+    "latency_ms": 90
+  },
+  {
+    "id": "heal_5",
+    "timestamp": "2026-04-30T05:25:19.309749",
+    "error_id": "err_5",
+    "action": "auto_fix",
+    "success": true,
+    "latency_ms": 100
+  },
+  {
+    "id": "heal_6",
+    "timestamp": "2026-04-29T05:25:19.309753",
+    "error_id": "err_6",
+    "action": "retry",
+    "success": true,
+    "latency_ms": 110
+  },
+  {
+    "id": "heal_7",
+    "timestamp": "2026-04-28T05:25:19.309757",
+    "error_id": "err_7",
+    "action": "fallback",
+    "success": true,
+    "latency_ms": 120
+  },
+  {
+    "id": "heal_8",
+    "timestamp": "2026-04-27T05:25:19.309760",
+    "error_id": "err_8",
+    "action": "auto_fix",
+    "success": true,
+    "latency_ms": 130
+  },
+  {
+    "id": "heal_9",
+    "timestamp": "2026-04-26T05:25:19.309764",
+    "error_id": "err_9",
+    "action": "retry",
+    "success": true,
+    "latency_ms": 140
+  },
+  {
+    "id": "heal_10",
+    "timestamp": "2026-04-30T05:25:19.309767",
+    "error_id": "err_10",
+    "action": "fallback",
+    "success": true,
+    "latency_ms": 150
+  },
+  {
+    "id": "heal_11",
+    "timestamp": "2026-04-29T05:25:19.309771",
+    "error_id": "err_11",
+    "action": "auto_fix",
+    "success": true,
+    "latency_ms": 160
+  },
+  {
+    "id": "heal_12",
+    "timestamp": "2026-04-28T05:25:19.309774",
+    "error_id": "err_12",
+    "action": "retry",
+    "success": true,
+    "latency_ms": 170
+  },
+  {
+    "id": "heal_13",
+    "timestamp": "2026-04-27T05:25:19.309777",
+    "error_id": "err_13",
+    "action": "fallback",
+    "success": true,
+    "latency_ms": 180
+  },
+  {
+    "id": "heal_14",
+    "timestamp": "2026-04-26T05:25:19.309781",
+    "error_id": "err_14",
+    "action": "auto_fix",
+    "success": true,
+    "latency_ms": 190
+  },
+  {
+    "id": "heal_15",
+    "timestamp": "2026-04-30T05:25:19.309784",
+    "error_id": "err_15",
+    "action": "retry",
+    "success": true,
+    "latency_ms": 200
+  },
+  {
+    "id": "heal_16",
+    "timestamp": "2026-04-29T05:25:19.309788",
+    "error_id": "err_16",
+    "action": "fallback",
+    "success": true,
+    "latency_ms": 210
+  },
+  {
+    "id": "heal_17",
+    "timestamp": "2026-04-28T05:25:19.309791",
+    "error_id": "err_17",
+    "action": "auto_fix",
+    "success": true,
+    "latency_ms": 220
+  },
+  {
+    "id": "heal_18",
+    "timestamp": "2026-04-27T05:25:19.309795",
+    "error_id": "err_18",
+    "action": "retry",
+    "success": true,
+    "latency_ms": 230
+  },
+  {
+    "id": "heal_19",
+    "timestamp": "2026-04-26T05:25:19.309799",
+    "error_id": "err_19",
+    "action": "fallback",
+    "success": true,
+    "latency_ms": 240
+  },
+  {
+    "id": "heal_20",
+    "timestamp": "2026-04-30T05:25:19.309802",
+    "error_id": "err_20",
+    "action": "auto_fix",
+    "success": true,
+    "latency_ms": 250
+  },
+  {
+    "id": "heal_21",
+    "timestamp": "2026-04-29T05:25:19.309806",
+    "error_id": "err_21",
+    "action": "retry",
+    "success": true,
+    "latency_ms": 260
+  },
+  {
+    "id": "heal_22",
+    "timestamp": "2026-04-28T05:25:19.309809",
+    "error_id": "err_22",
+    "action": "fallback",
+    "success": true,
+    "latency_ms": 270
+  },
+  {
+    "id": "heal_23",
+    "timestamp": "2026-04-27T05:25:19.309813",
+    "error_id": "err_23",
+    "action": "auto_fix",
+    "success": false,
+    "latency_ms": 280
+  },
+  {
+    "id": "heal_24",
+    "timestamp": "2026-04-26T05:25:19.309817",
+    "error_id": "err_24",
+    "action": "retry",
+    "success": false,
+    "latency_ms": 290
+  }
+]

@@ -1,0 +1,204 @@
+{
+  "rules": [
+    {
+      "id": "rule_0",
+      "name": "核心规则 0",
+      "description": "从错误中提炼的规则 0",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_1",
+      "name": "核心规则 1",
+      "description": "从错误中提炼的规则 1",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_2",
+      "name": "核心规则 2",
+      "description": "从错误中提炼的规则 2",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_3",
+      "name": "核心规则 3",
+      "description": "从错误中提炼的规则 3",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_4",
+      "name": "核心规则 4",
+      "description": "从错误中提炼的规则 4",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_5",
+      "name": "核心规则 5",
+      "description": "从错误中提炼的规则 5",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_6",
+      "name": "核心规则 6",
+      "description": "从错误中提炼的规则 6",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_7",
+      "name": "核心规则 7",
+      "description": "从错误中提炼的规则 7",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_8",
+      "name": "核心规则 8",
+      "description": "从错误中提炼的规则 8",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_9",
+      "name": "核心规则 9",
+      "description": "从错误中提炼的规则 9",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_10",
+      "name": "核心规则 10",
+      "description": "从错误中提炼的规则 10",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_11",
+      "name": "核心规则 11",
+      "description": "从错误中提炼的规则 11",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_12",
+      "name": "核心规则 12",
+      "description": "从错误中提炼的规则 12",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_13",
+      "name": "核心规则 13",
+      "description": "从错误中提炼的规则 13",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_14",
+      "name": "核心规则 14",
+      "description": "从错误中提炼的规则 14",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_15",
+      "name": "核心规则 15",
+      "description": "从错误中提炼的规则 15",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_16",
+      "name": "核心规则 16",
+      "description": "从错误中提炼的规则 16",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_17",
+      "name": "核心规则 17",
+      "description": "从错误中提炼的规则 17",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_18",
+      "name": "核心规则 18",
+      "description": "从错误中提炼的规则 18",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_19",
+      "name": "核心规则 19",
+      "description": "从错误中提炼的规则 19",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_20",
+      "name": "核心规则 20",
+      "description": "从错误中提炼的规则 20",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_21",
+      "name": "核心规则 21",
+      "description": "从错误中提炼的规则 21",
+      "status": "active",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_22",
+      "name": "核心规则 22",
+      "description": "从错误中提炼的规则 22",
+      "status": "inactive",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_23",
+      "name": "核心规则 23",
+      "description": "从错误中提炼的规则 23",
+      "status": "inactive",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    },
+    {
+      "id": "rule_24",
+      "name": "核心规则 24",
+      "description": "从错误中提炼的规则 24",
+      "status": "inactive",
+      "source": "error_tracker",
+      "created": "2026-04-29"
+    }
+  ]
+}

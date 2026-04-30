@@ -9,3 +9,36 @@
 {"op":"relate","from":"market_20260428","rel":"has_data","to":"usstock_20260428"}
 {"op":"relate","from":"market_20260428","rel":"has_data","to":"commodity_20260428"}
 {"op":"relate","from":"market_20260428","rel":"has_data","to":"news_20260428"}
+{"op": "create", "entity": {"id": "proj_cd947f46", "type": "Project", "properties": {"name": "Auto Sim Trading", "status": "active"}, "created": "2026-04-29T17:08:15.509062+00:00", "updated": "2026-04-29T17:08:15.509062+00:00"}, "timestamp": "2026-04-29T17:08:15.509062+00:00"}
+{"op": "create", "entity": {"id": "proj_6e8d373d", "type": "Project", "properties": {"name": "Trading Agents Framework", "status": "active"}, "created": "2026-04-29T17:08:15.567238+00:00", "updated": "2026-04-29T17:08:15.567238+00:00"}, "timestamp": "2026-04-29T17:08:15.567238+00:00"}
+{"op": "create", "entity": {"id": "proj_1c378ac5", "type": "Project", "properties": {"name": "Quant Fund Analysis", "status": "active"}, "created": "2026-04-29T17:08:15.625620+00:00", "updated": "2026-04-29T17:08:15.625620+00:00"}, "timestamp": "2026-04-29T17:08:15.625620+00:00"}
+{"op": "create", "entity": {"id": "fund_38712910", "type": "Fund", "properties": {"code": "000216", "name": "\u534e\u5b89\u9ec4\u91d1ETF\u8054\u63a5A", "type": "\u9ec4\u91d1/\u907f\u9669", "weight": 26.8}, "created": "2026-04-29T17:08:15.683687+00:00", "updated": "2026-04-29T17:08:15.683687+00:00"}, "timestamp": "2026-04-29T17:08:15.683687+00:00"}
+{"op": "create", "entity": {"id": "fund_502e1c90", "type": "Fund", "properties": {"code": "006143", "name": "\u9e4f\u534e\u77f3\u6cb9\u5929\u7136\u6c14ETF\u8054\u63a5C", "type": "\u80fd\u6e90/\u5546\u54c1", "weight": 12.29}, "created": "2026-04-29T17:08:15.742039+00:00", "updated": "2026-04-29T17:08:15.742039+00:00"}, "timestamp": "2026-04-29T17:08:15.742039+00:00"}
+{"op": "create", "entity": {"id": "fund_1aeabe6d", "type": "Fund", "properties": {"code": "017312", "name": "\u5929\u5f18\u4e2d\u7f8e\u4e92\u8054\u7f51\u6307\u6570(QDII)A", "type": "\u79d1\u6280/QDII", "weight": 9.99}, "created": "2026-04-29T17:08:15.800402+00:00", "updated": "2026-04-29T17:08:15.800402+00:00"}, "timestamp": "2026-04-29T17:08:15.800402+00:00"}
+{"op": "create", "entity": {"id": "fund_361fb7b2", "type": "Fund", "properties": {"code": "019559", "name": "\u8def\u535a\u8fc8\u8d44\u6e90\u7cbe\u9009\u80a1\u7968C", "type": "\u8d44\u6e90/\u5468\u671f", "weight": 7.26}, "created": "2026-04-29T17:08:15.858530+00:00", "updated": "2026-04-29T17:08:15.858530+00:00"}, "timestamp": "2026-04-29T17:08:15.858530+00:00"}
+{"op": "create", "entity": {"id": "skill_auto_sim", "type": "Skill", "properties": {"name": "Auto Sim Trading", "description": "自动模拟炒股系统"}}}
+{"op": "create", "entity": {"id": "skill_trading_agents", "type": "Skill", "properties": {"name": "Trading Agents Framework", "description": "多Agent交易框架"}}}
+{"op": "create", "entity": {"id": "skill_quant_fund", "type": "Skill", "properties": {"name": "Quant Fund Analysis", "description": "量化基金分析"}}}
+{"op": "create", "entity": {"id": "skill_finance_data", "type": "Skill", "properties": {"name": "Finance Data", "description": "A股金融数据获取"}}}
+{"op": "create", "entity": {"id": "skill_smartness", "type": "Skill", "properties": {"name": "Smartness Eval", "description": "智能度评估系统"}}}
+{"op": "relate", "from": "skill_auto_sim", "rel": "provides", "to": "skill_finance_data"}
+{"op": "relate", "from": "skill_trading_agents", "rel": "enhances", "to": "skill_auto_sim"}
+{"op": "relate", "from": "skill_quant_fund", "rel": "analyzes", "to": "skill_auto_sim"}
+{"op": "create", "entity": {"id": "system_12_intent", "type": "Capability", "properties": {"name": "意图分类", "description": "12 种意图 + 4 种情绪识别"}}}
+{"op": "create", "entity": {"id": "system_dag", "type": "Capability", "properties": {"name": "DAG 任务分解", "description": "任务拆解 + 关键路径 + 并行"}}}
+{"op": "create", "entity": {"id": "system_reasoning", "type": "Capability", "properties": {"name": "推理引擎", "description": "5 种推理模板 + 对抗论证"}}}
+{"op": "create", "entity": {"id": "system_4layer_memory", "type": "Capability", "properties": {"name": "四层记忆", "description": "SESSION→每日→长期→SQLite"}}}
+{"op": "create", "entity": {"id": "system_error_evolution", "type": "Capability", "properties": {"name": "错误进化", "description": "追踪 + 模式识别 + 规则提取"}}}
+{"op": "create", "entity": {"id": "skill_auto_sim", "type": "Skill", "properties": {"name": "Auto Sim Trading", "description": "自动模拟炒股系统"}}}
+{"op": "create", "entity": {"id": "skill_trading_agents", "type": "Skill", "properties": {"name": "Trading Agents Framework", "description": "多Agent交易框架"}}}
+{"op": "create", "entity": {"id": "skill_quant_fund", "type": "Skill", "properties": {"name": "Quant Fund Analysis", "description": "量化基金分析"}}}
+{"op": "create", "entity": {"id": "skill_finance_data", "type": "Skill", "properties": {"name": "Finance Data", "description": "A股金融数据获取"}}}
+{"op": "create", "entity": {"id": "skill_smartness", "type": "Skill", "properties": {"name": "Smartness Eval", "description": "智能度评估系统"}}}
+{"op": "relate", "from": "skill_auto_sim", "rel": "provides", "to": "skill_finance_data"}
+{"op": "relate", "from": "skill_trading_agents", "rel": "enhances", "to": "skill_auto_sim"}
+{"op": "relate", "from": "skill_quant_fund", "rel": "analyzes", "to": "skill_auto_sim"}
+{"op": "create", "entity": {"id": "system_12_intent", "type": "Capability", "properties": {"name": "意图分类", "description": "12 种意图 + 4 种情绪识别"}}}
+{"op": "create", "entity": {"id": "system_dag", "type": "Capability", "properties": {"name": "DAG 任务分解", "description": "任务拆解 + 关键路径 + 并行"}}}
+{"op": "create", "entity": {"id": "system_reasoning", "type": "Capability", "properties": {"name": "推理引擎", "description": "5 种推理模板 + 对抗论证"}}}
+{"op": "create", "entity": {"id": "system_4layer_memory", "type": "Capability", "properties": {"name": "四层记忆", "description": "SESSION→每日→长期→SQLite"}}}
+{"op": "create", "entity": {"id": "system_error_evolution", "type": "Capability", "properties": {"name": "错误进化", "description": "追踪 + 模式识别 + 规则提取"}}}
